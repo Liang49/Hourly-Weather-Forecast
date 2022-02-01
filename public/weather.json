@@ -1,0 +1,36 @@
+[
+  {
+    "cityId": 1,
+    "city": "Brooklyn",
+    "weather": "Cloudy",
+    "temperature": 25
+  },
+
+  {
+    "cityId": 2,
+    "city": "Queen",
+    "weather": "Sunny",
+    "temperature": 9
+  },
+
+  {
+    "cityId": 3,
+    "city": "Bronx",
+    "weather": "Heavy Cloud",
+    "temperature": 13
+  },
+
+  {
+    "cityId": 4,
+    "city": "Binghamton",
+    "weather": "Rain",
+    "temperature": 18
+  },
+
+  {
+    "cityId": 5,
+    "city": "Bronx",
+    "weather": "Rain",
+    "temperature": 14
+  }
+]

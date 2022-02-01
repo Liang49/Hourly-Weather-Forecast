@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.App {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.weatherCard {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin-top: 20px;
+  background-image: url("./cloudy.jpg");
+}
+.card {
+  background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+}
+
+.search {
+  width: 30%;
+  padding: 12px 24px;
+  border-radius: 50px;
+  border: 1px solid #575756;
+}
+.search::placeholder {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.icon {
+  font-size: 3vw;
+}
+.size {
+  font-size: 3vw;
+}
+@media only screen and (max-width: 450px) {
+  .weatherCard {
+    color: white;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .material {
+    font-size: 200px;
+  }
+  .header {
+    font-size: 4vw;
+  }
+}
